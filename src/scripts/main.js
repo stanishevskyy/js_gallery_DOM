@@ -8,5 +8,5 @@ ul.addEventListener('click', (e) => {
 
   const link = e.target.closest('.list-item__link');
 
-  divElement.querySelector('img').src = link.href;
+  divElement.src = link.href;
 });
